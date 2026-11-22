@@ -12,7 +12,7 @@ and its 4 options on separate lines. This made the questions easy to read and co
 -Use of loops
   * 'for' loop goes through the questions one by one
   * 'while' loop keeps asking until the user types A, B, C or D.
-  * 
+    
 -Use of conditional statements
   * I also used an if inside the while loop to check the input. If the user inputs A, B, C or D, the loop stops using break. If not, the        program prints "Invalid" and asks the question again until A, B, C or D is typed by the user.
   * I used if and else to check the answer. If the letter typed by the user is the same as the correct answer, the program prints
