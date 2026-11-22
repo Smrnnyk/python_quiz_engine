@@ -1,6 +1,6 @@
 toREADME.md
 # Explaining the problem
-A quiz with 8 multiple-choice questions on python basics.
+A quiz with 8 multiple-choice questions on python basics. The user answers with A, B, C or D then it checks each answer and gives feedback. At the end it shows the score and the percentage.
 # How to run the program
 Install python 3.10
 Run : python Interactive Quiz Engine.py
