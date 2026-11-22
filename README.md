@@ -12,12 +12,15 @@ and its 4 options on separate lines. This made the questions easy to read and co
 -Use of loops
   * 'for' loop goes through the questions one by one
   * 'while' loop keeps asking until the user types A, B, C or D.
+  * 
 -Use of conditional statements
   * I also used an if inside the while loop to check the input. If the user inputs A, B, C or D, the loop stops using break. If not, the        program prints "Invalid" and asks the question again until A, B, C or D is typed by the user.
   * I used if and else to check the answer. If the letter typed by the user is the same as the correct answer, the program prints
     "Correct!" and adds 1 to the score. Else (if it is not the same), it prints "Wrong!" and shows the correct answer
+    
 -Use of Built-in Methhod
   *I used .upper() so that a small letter like c is changed to C before checking to avoid case mismatch, as the program treats a small      letter and a capital letter as two different answers. (Since Python is case sensitive)
+  
 At the end I find the percentage using score / 8 * 100.
 # Edge Case
 If the user types something wrong like E, a number or nothing, the program says "Invalid" and asks again. No marks are lost and the
